@@ -1,0 +1,235 @@
+body{
+	/*background: linear-gradient(to bottom, #ffcc88 0%, #505050 100%);*/
+	background-image: linear-gradient(to bottom, #25274d, #25274d);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin: 0;
+	/*transition-duration: 5s;*/
+	/*background-color: #25274d;*/
+	cursor: url('//Pictures/Thanos 1.png'), default;
+}
+
+h1#HEADER {
+	color: white;
+	font-family: 'Bad Script';
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+}
+
+.specialtext > .HEADER {
+	color: white;
+	font-size: 20px;
+	font-family: 'Bad Script';
+	font-style: italic;
+	text-align: left;
+	background-color: rgba(70,72,102.90210,0);
+	text-decoration: none;
+}
+
+.LABELS {
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+	justify-content: space-between;
+	font-size: 20px;
+	font-family: Alegreya SC;
+	overflow: hidden;
+	z-index: 3;
+	transition: box-shadow 0.5s;
+}
+
+button {
+	width: 100%;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #333;
+}
+#navbar button{
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px;
+	color: #f2f2f2;
+}
+
+button.post {
+	width: 200px;
+	border-radius: 50px;
+	font-family: 'Bad Script';
+	font-size: 100%;
+	color: white;
+	padding: 0px;
+	text-align: 50% 50%;
+	box-shadow: 3px 3px 3px 2px #000000;
+}
+
+img.post {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	float: left;
+	/*margin: 5% 0% 5% 0%;*/
+	border-radius: 50%;
+}
+
+i, sup{
+	background-color: inherit;
+	color: white;
+}
+
+span {
+	background-color: rgba(70,72,102.90210,0);
+}
+
+h5.post {
+	font-family: 'Bad Script';
+	display: block;
+	float: left;
+	color: white;
+	text-align: center;
+	/*font-size: 100%;*/
+}
+
+p.post {
+	background-color: inherit;
+	float: left;
+	margin-left: 10px;
+}
+
+button.achievements {
+	background-color: purple;
+}
+
+button.interests {
+	background-color: blue;
+}
+
+p.redirect {
+	display: inline-block;
+	background-color: blue;
+}
+
+button.redirect {
+	display: inline-block;
+	width: 10%;
+}
+
+.textblock {
+	font-size: 200px;
+}
+
+.secret {
+	display: none;
+}
+
+.specialtext{
+	color: white;
+	display: inline-block;
+	background-color: rgba(70,72,102.90210,0.7);
+	align-content: center;
+	margin: 0 30% 0 5%;
+	padding: 0 2%;
+}
+
+	.ACHIEVEMENTS {
+	background: #972670;
+	font-size: inherit;
+	font-family: inherit;
+	}
+
+	.ACHIEVEMENTS:hover {
+	background: radial-gradient(#a72a7c,#581642);
+	}
+
+	.achievements {
+	font-size: inherit;
+	font-family:inherit;
+	background-color: rgba(200,72,102.90210,0);
+	}
+
+	.INTERESTS {
+	background-color: #266DD3;
+	font-size: inherit;
+	font-family: inherit;
+	}
+
+	.INTERESTS:hover {
+	background: radial-gradient(#548de0,#1d53a1);
+	}
+
+	.interests {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: rgba(70,72,102.90210,0);
+	}
+
+	.PERSONAL {
+	background-color: #DB162F;
+	font-size: inherit;
+	font-family: inherit;
+	}
+
+	.PERSONAL:hover {
+	background: radial-gradient(#ec4056,#a61124);
+	}
+
+	.personal {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: rgba(70,72,102.90210,0);
+	}
+
+	.MUSIC {
+	background-color: #F26419;
+	font-size: inherit;
+	font-family: inherit;
+	}
+
+	.MUSIC:hover {
+	background: radial-gradient(#f47d3e,#b2440a);
+	}
+
+	.music {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: rgba(70,72,102.90210,0);
+	}
+
+	.MATH {
+	background-color: #306B34;
+	font-size: inherit;
+	font-family: inherit;
+	}
+
+	.MATH:hover {
+	background: radial-gradient(#76c27b,#429448);
+	}
+
+	.math {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: rgba(70,72,102.90210,0);
+	}
+
+	.PUZZLES {
+	background-color: #E0CA3C;
+	font-size: inherit;
+	font-family: inherit;
+	/*border-bottom-right-radius: 8px;*/
+	/*border-top-right-radius: 8px;*/
+	}
+
+	.PUZZLES:hover {
+	background: radial-gradient(#e0ca3c,#a0831a);
+	}
+
+	.puzzles {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: rgba(70,72,102.90210,0);
+	}
